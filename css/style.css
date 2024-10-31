@@ -1,0 +1,53 @@
+.ph_main{
+    padding: 40px 20px;
+}
+.ph_main .ph_content .ph_header{
+    border-bottom: 4px solid #ccc;
+    padding-bottom: 20px;
+}
+.ph_main .ph_content .ph_header .logo{
+    max-width: 250px;
+}
+.ph_main .ph_content .ph_body{
+    padding-top: 20px;
+}
+.ph_main .ph_content .ph_body .ph_box_status{
+    padding: 15px 20px;
+    width: 30%;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+.ph_main .ph_content .ph_body .ph_box_status .status_body p{
+    font-weight: 600;
+    font-size: 15px;
+}
+.ph_main .ph_content .ph_body .ph_box_status .status_footer{
+    text-align: right;
+    padding-top: 10px;
+}
+.ph_main .ph_content .ph_body .ph_box_status .status_footer button{
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.ph_main .ph_content .ph_body .icon-status{
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+    margin-bottom: -1px;
+}
+.ph_main .ph_content .ph_body .icon-success{
+    background-image: url('../images/icon-success.png');
+}
+.ph_main .ph_content .ph_body .icon-fail{
+    background-image: url('../images/icon-fail.png');
+}
+.ph_main .ph_content .ph_body .icon-refresh{
+    background-image: url('../images/icon-refresh.png');
+}
